@@ -1,7 +1,7 @@
-# Understand Kubernetes Internals
+# Understanding Kubernetes Internals
 
 ### Kubernetes Architecture: 
-API server, etcd, scheduler, controller manager, kubelet, kube-proxy.
+API server ---> etcd ----> scheduler ----> controller manager ----> kubelet ----> kube-proxy.
 
 Pods, services, deployments, namespaces, RBAC, secrets, config maps.
 
