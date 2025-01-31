@@ -12,3 +12,13 @@ Every host OS used for running containers has binaries that establish and mainta
 Examples: Docker, rkt and OCI  
 
 ![Kubernetes Security](image.png)
+
+
+# External Tools
+kube-bench
+AppArmor
+seccomp
+gVisor
+Kata Containers
+Trivy
+Falco
