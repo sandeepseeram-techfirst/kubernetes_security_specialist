@@ -9,4 +9,4 @@ Control plane vs data plane.
 
 # Container Runtime 
 Every host OS used for running containers has binaries that establish and maintain the environment for each container, also known as the container runtime. 
-Examples: Docker, rkt and OCI 
+Examples: Docker, rkt and OCI  
