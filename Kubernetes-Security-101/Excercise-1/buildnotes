@@ -1,0 +1,8 @@
+podman build -t app .
+podman run -d -e TOKEN=2e064aad-3a90-4cde-ad86-16fad1f8943e app sleep 1d # run in background
+podman ps | grep app
+
+
+
+podman exec -it 4a848daec2e2 bash # fails
+podman exec -it 4a848daec2e2 sh # works
