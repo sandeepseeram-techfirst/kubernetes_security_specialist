@@ -4,5 +4,6 @@
 
 2. The IP address is ephemeral and therefore cannot be considered stable over time. 
 
-Every restart of a Pod leases a new IP address. 
-It’s recommended to use Pod-to-Service communication over Pod-to-Pod communication so that you can rely on a consistent network interface.
+3. Every restart of a Pod leases a new IP address. 
+
+4. It’s recommended to use Pod-to-Service communication over Pod-to-Pod communication so that you can rely on a consistent network interface.
