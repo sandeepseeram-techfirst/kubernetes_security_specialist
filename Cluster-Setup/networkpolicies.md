@@ -17,7 +17,7 @@ $ kubectl get ns g04 --show-labels
 NAME   STATUS   AGE   LABELS
 g04    Active   12m   app=orion,kubernetes.io/metadata.name=g04
 
-$ kubectl get pods -n g04 --show-labels
+$ kubectl get pods -n g04 --show-labels 
 NAME       READY   STATUS    RESTARTS   AGE     LABELS
 backend    1/1     Running   0          9m46s   tier=backend
 frontend   1/1     Running   0          9m46s   tier=frontend
