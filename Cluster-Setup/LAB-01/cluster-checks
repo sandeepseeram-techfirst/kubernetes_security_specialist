@@ -10,3 +10,19 @@ NAME           STATUS   ROLES           AGE    VERSION
 controlplane   Ready    control-plane   2m2s   v1.31.6
 node01         Ready    <none>          108s   v1.31.6
 controlplane:~$ 
+
+crictl is a command-line interface for CRI-compatible container runtimes (like containerd or CRI-O). It's used to inspect and manage containers and pods running in a Kubernetes environment — bypassing Docker entirely.
+
+
+controlplane:~$ crictl ps
+CONTAINER           IMAGE               CREATED             STATE               NAME                      ATTEMPT             POD ID              POD
+24cadac86eb7f       ca41e01d17a87       2 minutes ago       Running             kubelet-csr-approver      0                   d353ada5b35bf       kubelet-csr-approver-5cd65b5d5f-fqd7x
+46b8066e93ad2       ca41e01d17a87       2 minutes ago       Running             kubelet-csr-approver      0                   f40b14efc63ee       kubelet-csr-approver-5cd65b5d5f-7w2gf
+f16f2e63efe83       c69fa2e9cbf5f       2 minutes ago       Running             coredns                   0                   f30b98d037eb9       coredns-7c65d6cfc9-tp89h
+9dffe48296f98       c69fa2e9cbf5f       2 minutes ago       Running             coredns                   0                   c6d637cb023e5       coredns-7c65d6cfc9-mz6nx
+34d50ec50cb1d       1421c6bce6d6e       2 minutes ago       Running             kube-flannel              0                   b5fcacc2eb487       kube-flannel-ds-knff2
+6e19ec4675a68       d2448f015605e       2 minutes ago       Running             kube-proxy                0                   49dd4a9cb85bb       kube-proxy-p7v5q
+a763169e7a3ef       9195ad415d31e       3 minutes ago       Running             kube-scheduler            0                   352c8563f55fa       kube-scheduler-controlplane
+7a11ae8b145bf       2e96e5913fc06       3 minutes ago       Running             etcd                      0                   f9316f3a3bc12       etcd-controlplane
+074b700176bbc       1372127edc9da       3 minutes ago       Running             kube-apiserver            0                   c8781718b98da       kube-apiserver-controlplane
+19e7c0b387098       5f23cb154eea1       3 minutes ago       Running             kube-controller-manager   0                   2c1dc0485f831       kube-controller-manager-controlplane
