@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
   name: backend-ingress
-  namespace: g04
+  namespace: g04 
 spec:
   podSelector:
     matchLabels:
