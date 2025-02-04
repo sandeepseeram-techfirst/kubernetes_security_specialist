@@ -3,7 +3,7 @@ main/job-master.yaml
 job.batch/kube-bench-master created
 
 
-$ kubectl get pods
+$ kubectl get pods 
 NAME                      READY   STATUS      RESTARTS   AGE
 kube-bench-master-5gjdn   0/1     Completed   0          10s
 $ kubectl logs kube-bench-master-5gjdn | grep 1.2.12
