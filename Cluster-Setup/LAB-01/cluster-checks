@@ -14,7 +14,7 @@ controlplane:~$
 crictl is a command-line interface for CRI-compatible container runtimes (like containerd or CRI-O). It's used to inspect and manage containers and pods running in a Kubernetes environment — bypassing Docker entirely.
 
 
-controlplane:~$ crictl ps
+controlplane:~$ crictl ps 
 CONTAINER           IMAGE               CREATED             STATE               NAME                      ATTEMPT             POD ID              POD
 24cadac86eb7f       ca41e01d17a87       2 minutes ago       Running             kubelet-csr-approver      0                   d353ada5b35bf       kubelet-csr-approver-5cd65b5d5f-fqd7x
 46b8066e93ad2       ca41e01d17a87       2 minutes ago       Running             kubelet-csr-approver      0                   f40b14efc63ee       kubelet-csr-approver-5cd65b5d5f-7w2gf
