@@ -9,7 +9,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   labels:
-    tier: backend
+    tier: backend 
   name: backend
   namespace: g04
 spec:
