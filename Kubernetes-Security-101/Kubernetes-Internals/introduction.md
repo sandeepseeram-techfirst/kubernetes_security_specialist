@@ -14,7 +14,7 @@ Examples: Docker, rkt and OCI
 ![Kubernetes Security](image.png)
 
 
-# External Tools
+# External Tools 
 kube-bench
 AppArmor
 seccomp
