@@ -5,7 +5,7 @@ pod/frontend created
 pod/other created
 
 
-controlplane:~$ kubectl get pods -n g04 -o wide
+controlplane:~$ kubectl get pods -n g04 -o wide 
 NAME       READY   STATUS              RESTARTS   AGE   IP       NODE     NOMINATED NODE   READINESS GATES
 backend    0/1     ContainerCreating   0          15s   <none>   node01   <none>           <none>
 frontend   0/1     ContainerCreating   0          15s   <none>   node01   <none>           <none>
