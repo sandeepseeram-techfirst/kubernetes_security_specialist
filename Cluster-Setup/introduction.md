@@ -4,5 +4,5 @@
 2. Running CIS benchmark tooling to identify security risks for cluster components
 3. Setting up an Ingress object with TLS support
 4. Protecting node ports, API endpoints, and GUI access
-5. Verifying platform binaries against their checksums
+5. Verifying platform binaries against their checksums 
 
