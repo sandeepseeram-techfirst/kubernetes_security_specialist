@@ -1,0 +1,15 @@
+$ kubectl get deployments,pods,services -n kubernetes-dashboard
+NAME                                        READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/dashboard-metrics-scraper   1/1     1            1           11m
+deployment.apps/kubernetes-dashboard        1/1     1            1           11m
+
+NAME                                             READY   STATUS    RESTARTS   AGE
+pod/dashboard-metrics-scraper-78dbd9dbf5-f8z4x   1/1     Running   0          11m
+pod/kubernetes-dashboard-5fd5574d9f-ns7nl        1/1     Running   0          11m
+
+NAME                                TYPE        CLUSTER-IP       EXTERNAL-IP \
+  PORT(S)    AGE
+service/dashboard-metrics-scraper   ClusterIP   10.98.6.37       <none>      \
+  8000/TCP   11m
+service/kubernetes-dashboard        ClusterIP   10.102.234.158   <none>      \
+  80/TCP     11m
