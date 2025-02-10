@@ -1,6 +1,6 @@
 # AppArmor 
 
-AppArmor provides access control to programs running on a Linux system. The tool implements an additional security layer between the applications invoked in the user space and the underlying system functionality. 
+AppArmor provides access control to programs running on a Linux system. The tool implements an additional security layer between the applications invoked in the user space and the underlying system functionality.
 
 For example, we can restrict network calls or filesystem interaction. Many Linux distributions (e.g., Debian, Ubuntu, openSUSE) already ship with AppArmor.
 
