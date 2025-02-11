@@ -4,7 +4,7 @@ metadata:
   name: default-deny-egress-metadata-server
   namespace: a12
 spec:
-  podSelector: {}
+  podSelector: {} 
   policyTypes:
   - Egress
   egress:
