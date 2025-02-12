@@ -6,6 +6,6 @@ metadata:
     container.apparmor.security.beta.kubernetes.io/hello: localhost/k8s-deny-write
 spec:
   containers:
-  - name: hello 
+  - name: hello
     image: busybox:1.28
     command: ["sh", "-c", "echo 'Hello AppArmor!' && sleep 1h"]
