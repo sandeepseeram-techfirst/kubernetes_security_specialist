@@ -2,7 +2,7 @@ $ sudo aa-status
 apparmor module is loaded.
 31 profiles are loaded.
 31 profiles are in enforce mode.
-   /snap/snapd/15177/usr/lib/snapd/snap-confine
+   /snap/snapd/15177/usr/lib/snapd/snap-confine 
    ...
 0 profiles are in complain mode.
 14 processes have profiles defined.
