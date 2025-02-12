@@ -1,4 +1,4 @@
-# AppArmor Profiles 
+# AppArmor Profiles
 
 The profile mode determines the treatment of rules at runtime should a matching event happen. AppArmor distinguishes two types of profile modes:
 
