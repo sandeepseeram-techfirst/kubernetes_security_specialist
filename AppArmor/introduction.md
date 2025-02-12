@@ -1,4 +1,4 @@
-# AppArmor 
+# AppArmor
 
 AppArmor provides access control to programs running on a Linux system. The tool implements an additional security layer between the applications invoked in the user space and the underlying system functionality.
 
