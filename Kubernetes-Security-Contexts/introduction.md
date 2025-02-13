@@ -4,3 +4,6 @@ Both core Kubernetes and the Kubernetes ecosystem offer solutions for defining, 
 
 1. Pod Security Admission
 2. Open Policy Agent Gatekeeper.
+
+
+Kubernetes, as the container orchestration engine, can apply additional configuration to increase container security. You do so by defining a security context. A security context defines privilege and access control settings for a Pod or a container. 
