@@ -28,3 +28,9 @@ pod/non-root-success created
 $ kubectl get pod non-root-success
 NAME               READY   STATUS    RESTARTS   AGE
 non-root-success   1/1     Running   0          7s
+
+
+$ kubectl exec non-root-success -it -- /bin/sh
+$ id
+uid=1001 gid=0(root) groups=0(root)
+$ exit
