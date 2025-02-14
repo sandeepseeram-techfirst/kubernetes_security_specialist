@@ -1,0 +1,23 @@
+$ kubectl apply -f container-non-root-user-error.yaml
+pod/non-root-error created
+$ kubectl get pod non-root-error
+NAME             READY   STATUS                       RESTARTS   AGE
+non-root-error   0/1     CreateContainerConfigError   0          9s
+
+
+$ kubectl describe pod non-root-error
+...
+Events:
+  Type     Reason     Age               From               Message
+  ----     ------     ----              ----               -------
+  Normal   Scheduled  24s               default-scheduler  Successfully \
+  assigned default/non-root to minikube
+  Normal   Pulling    24s               kubelet            Pulling image \
+  "nginx:1.23.1"
+  Normal   Pulled     16s               kubelet            Successfully \
+  pulled image "nginx:1.23.1" in 7.775950615s
+  Warning  Failed     4s (x3 over 16s)  kubelet            Error: container \
+  has runAsNonRoot and image will run as root (pod: "non-root-error_default \
+  (6ed9ed71-1002-4dc2-8cb1-3423f86bd144)", container: secured-container)
+  Normal   Pulled     4s (x2 over 16s)  kubelet            Container image \
+  "nginx:1.23.1" already present on machine
