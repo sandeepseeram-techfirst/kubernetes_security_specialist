@@ -34,3 +34,10 @@ $ kubectl exec non-root-success -it -- /bin/sh
 $ id
 uid=1001 gid=0(root) groups=0(root)
 $ exit
+
+
+$ kubectl apply -f container-user-id.yaml
+pod/user-id created
+$ kubectl get pods user-id
+NAME      READY   STATUS    RESTARTS   AGE
+user-id   1/1     Running   0          6s
