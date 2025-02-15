@@ -10,5 +10,6 @@ Kubernetes, as the container orchestration engine, can apply additional configur
 
 A security context defines privilege and access control settings for a Pod or a container. 
 
+# Avoiding Privileged Containers
 
 Kubernetes establishes a clear separation between the container namespace and the host namespace for processes, network, mounts, user ID, and more.
