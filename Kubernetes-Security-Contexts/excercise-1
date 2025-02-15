@@ -41,3 +41,12 @@ pod/user-id created
 $ kubectl get pods user-id
 NAME      READY   STATUS    RESTARTS   AGE
 user-id   1/1     Running   0          6s
+
+
+$ kubectl exec user-id -it -- /bin/sh
+/ $ id
+uid=1000 gid=3000 groups=3000
+/ $ touch test.txt
+touch: test.txt: Permission denied
+/ $ touch /tmp/test.txt
+/ $ exit
