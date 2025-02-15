@@ -9,3 +9,6 @@ Both core Kubernetes and the Kubernetes ecosystem offer solutions for defining, 
 Kubernetes, as the container orchestration engine, can apply additional configuration to increase container security. You do so by defining a security context. 
 
 A security context defines privilege and access control settings for a Pod or a container. 
+
+
+Kubernetes establishes a clear separation between the container namespace and the host namespace for processes, network, mounts, user ID, and more.
