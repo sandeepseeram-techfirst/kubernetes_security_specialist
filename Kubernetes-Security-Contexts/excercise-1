@@ -63,3 +63,10 @@ $ kubectl exec non-privileged -it -- /bin/sh
 / # sysctl kernel.hostname=test
 sysctl: error setting key 'kernel.hostname': Read-only file system
 / # exit
+
+
+$ kubectl apply -f privileged.yaml
+pod/privileged created
+$ kubectl get pod privileged
+NAME         READY   STATUS    RESTARTS   AGE
+privileged   1/1     Running   0          6s
