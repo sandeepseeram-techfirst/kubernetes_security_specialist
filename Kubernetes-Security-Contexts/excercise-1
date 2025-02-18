@@ -70,3 +70,5 @@ pod/privileged created
 $ kubectl get pod privileged
 NAME         READY   STATUS    RESTARTS   AGE
 privileged   1/1     Running   0          6s
+
+
