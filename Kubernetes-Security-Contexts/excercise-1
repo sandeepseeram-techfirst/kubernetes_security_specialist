@@ -88,3 +88,10 @@ type to "RuntimeDefault" or "Localhost")
 
 $ kubectl get pod -n psa
 No resources found in psa namespace.
+
+
+$ kubectl apply -f psa-non-violating-pod.yaml
+pod/busybox created
+$ kubectl get pod busybox -n psa
+NAME      READY   STATUS    RESTARTS   AGE
+busybox   1/1     Running   0          10s
