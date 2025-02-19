@@ -16,4 +16,4 @@ spec:
       runAsUser: 2000
       runAsGroup: 3000
       seccompProfile:
-        type: RuntimeDefault
+        type: RuntimeDefault 
