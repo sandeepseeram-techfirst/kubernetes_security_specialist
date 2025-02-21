@@ -9,3 +9,6 @@ Gatekeeper is an extension to Kubernetes that uses OPA. Gatekeeper allows for de
 ### Installing Gatekeeper
 
 Installing Gatekeeper is relatively easy. All you need to do is to create a bunch of Kubernetes objects from a YAML manifest provided by the Gatekeeper project.
+
+$ kubectl apply -f https://raw.githubusercontent.com/open-policy-agent/\
+gatekeeper/master/deploy/gatekeeper.yaml
