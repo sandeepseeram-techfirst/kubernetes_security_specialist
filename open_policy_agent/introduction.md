@@ -13,3 +13,11 @@ Installing Gatekeeper is relatively easy. All you need to do is to create a bunc
 $ kubectl apply -f https://raw.githubusercontent.com/open-policy-agent/\
 gatekeeper/master/deploy/gatekeeper.yaml
 
+Gatekeeper objects have been installed in the namespace gatekeeper-system. Make sure that all Pods in the namespace transition into the “Running” status before trying to use Gatekeeper:
+
+$ kubectl get namespaces
+NAME                STATUS   AGE
+default             Active   29h
+gatekeeper-system   Active   4s
+...
+
