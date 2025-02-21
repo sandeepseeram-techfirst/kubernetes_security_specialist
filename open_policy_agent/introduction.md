@@ -12,3 +12,4 @@ Installing Gatekeeper is relatively easy. All you need to do is to create a bunc
 
 $ kubectl apply -f https://raw.githubusercontent.com/open-policy-agent/\
 gatekeeper/master/deploy/gatekeeper.yaml
+
