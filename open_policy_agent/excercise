@@ -1,0 +1,5 @@
+$ kubectl apply -f constraint-template-labels.yaml
+constrainttemplate.templates.gatekeeper.sh/k8srequiredlabels created
+
+$ kubectl apply -f constraint-ns-labels.yaml
+k8srequiredlabels.constraints.gatekeeper.sh/ns-must-have-app-label-key created
