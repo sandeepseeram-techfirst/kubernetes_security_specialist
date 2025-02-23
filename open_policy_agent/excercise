@@ -7,4 +7,4 @@ k8srequiredlabels.constraints.gatekeeper.sh/ns-must-have-app-label-key created
 
 $ kubectl create ns governed-ns
 Error from server (Forbidden): admission webhook "validation.gatekeeper.sh" \
-denied the request: [ns-must-have-app-label-key] you must provide labels: {"app"}
+denied the request: [ns-must-have-app-label-key] you must provide labels: {"app"} 
