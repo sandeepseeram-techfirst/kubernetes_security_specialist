@@ -6,4 +6,4 @@ spec:
   containers:
   - image: busybox:1.35.0
     name: busybox
-    command: ["sh", "-c", "sleep 1h"] 
+    command: ["sh", "-c", "sleep 1h"]
