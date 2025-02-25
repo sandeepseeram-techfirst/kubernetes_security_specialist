@@ -4,4 +4,4 @@ Older versions of Kubernetes shipped with a feature called Pod Security Policies
 
 Kubernetes 1.21 deprecated Pod Security Policies and introduced the replacement functionality Pod Security Admission. 
 
-Kubernetes release 1.25 completely removed Pod Security Policies. 
+Kubernetes release 1.25 completely removed Pod Security Policies.
