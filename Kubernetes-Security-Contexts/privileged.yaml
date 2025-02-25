@@ -8,4 +8,4 @@ spec:
     name: busybox
     command: ["sh", "-c", "sleep 1h"]
     securityContext:
-      privileged: true 
+      privileged: true
