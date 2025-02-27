@@ -27,3 +27,9 @@ version = 2
 EOF
 
 $ sudo systemctl restart containerd
+
+
+$ kubectl apply -f runtimeclass.yaml
+runtimeclass.node.k8s.io/gvisor created
+$ kubectl apply -f pod.yaml
+pod/nginx created
