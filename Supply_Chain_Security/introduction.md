@@ -18,3 +18,11 @@ alpine       3.17.0    49176f190c7e   3 weeks ago   7.05MB
 You can further reduce the container image size and the attack surface by using a distroless image offered by Google. The following command downloads the latest tag of the container image gcr.io/distroless/static-debian11 and renders its details. 
 
 The size of the container image is only 2.34MB:
+
+$ docker pull gcr.io/distroless/static-debian11
+...
+$ docker image ls gcr.io/distroless/static-debian11:latest
+REPOSITORY                          TAG       IMAGE ID       CREATED      \
+  SIZE
+gcr.io/distroless/static-debian11   latest    901590160d4d   53 years ago \
+  2.34MB
