@@ -26,3 +26,13 @@ REPOSITORY                          TAG       IMAGE ID       CREATED      \
   SIZE
 gcr.io/distroless/static-debian11   latest    901590160d4d   53 years ago \
   2.34MB
+
+
+A distroless container image does not ship with any shell, which you can observe by running the following command:
+
+$ docker run -it gcr.io/distroless/static-debian11:latest /bin/sh
+docker: Error response from daemon: failed to create shim task: OCI runtime \
+create failed: runc create failed: unable to start container process: exec: \
+"/bin/sh": stat /bin/sh: no such file or directory: unknown.
+
+
