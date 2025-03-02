@@ -24,7 +24,7 @@ $ docker pull gcr.io/distroless/static-debian11
 $ docker image ls gcr.io/distroless/static-debian11:latest
 REPOSITORY                          TAG       IMAGE ID       CREATED      \
   SIZE
-gcr.io/distroless/static-debian11   latest    901590160d4d   53 years ago \
+gcr.io/distroless/static-debian11   latest    901590160d4d   53 years ago \ 
   2.34MB
 
 
