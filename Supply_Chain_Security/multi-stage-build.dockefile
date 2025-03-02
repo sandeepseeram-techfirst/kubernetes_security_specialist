@@ -17,3 +17,10 @@ $ docker build . -t go-sample-app:0.0.1
 $ docker images
 REPOSITORY      TAG     IMAGE ID       CREATED          SIZE
 go-sample-app   0.0.1   88175f3ab0d3   44 seconds ago   358MB
+
+
+$ docker build . -t go-sample-app:0.0.1
+...
+$ docker images
+REPOSITORY      TAG     IMAGE ID       CREATED          SIZE
+go-sample-app   0.0.1   88175f3ab0d3   44 seconds ago   12MB
