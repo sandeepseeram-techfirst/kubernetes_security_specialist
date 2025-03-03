@@ -2,7 +2,7 @@
 
 1. Performing behavior analytics to detect malicious activities
 
-Performing deep analytical investigation and identification
+2. Performing deep analytical investigation and identification
 
 Ensuring immutability of containers at runtime
 
