@@ -4,6 +4,6 @@
 
 2. Performing deep analytical investigation and identification
 
-Ensuring immutability of containers at runtime
+3. Ensuring immutability of containers at runtime
 
-Using audit logs to monitor access
+4. Using audit logs to monitor access
