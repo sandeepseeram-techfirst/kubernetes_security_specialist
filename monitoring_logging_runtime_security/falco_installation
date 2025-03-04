@@ -29,3 +29,6 @@ $ tree /etc/falco
 ├── rules.available
 │   └── application_rules.yaml
 └── rules.d
+
+
+$ sudo systemctl restart falco
