@@ -18,3 +18,14 @@ $ sudo systemctl status falco
      Memory: 30.2M
      CGroup: /system.slice/falco.service
              └─8718 /usr/bin/falco --pidfile=/var/run/falco.pid
+
+$ tree /etc/falco
+/etc/falco
+├── aws_cloudtrail_rules.yaml
+├── falco.yaml
+├── falco_rules.local.yaml
+├── falco_rules.yaml
+├── k8s_audit_rules.yaml
+├── rules.available
+│   └── application_rules.yaml
+└── rules.d
